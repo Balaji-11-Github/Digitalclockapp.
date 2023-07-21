@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: cornflowerblue;
+            text-align: center;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: x-large;
+            box-shadow: 10px 10px 10px 10px;
+            margin-top: 100px;
+            color:darkblue;
+            
+            
+            
+        }
+        div{
+            background-color: darkred;
+            min-height: auto;
+        }
+        span{
+            background-color: yellow;
+            color:black;
+            display: block;
+            text-decoration: underline;
+            
+           
+    
+            
+        }
+        
+        div{
+            border: 1px solid black;
+            display: flex;
+            gap: 50px;
+            padding: 50px;
+        }
+        #AMspan{
+            display: none;
+        }
+        #hourspan,#minutesspan,#datespan,#secondsspan,#AMspan,#dayspan,#monthspan,#yearspan{
+            font-size: xx-large;
+            font-weight: bolder;
+            
+        }
+        h1{
+            text-align: center;
+            background-color: goldenrod;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Digital Clock</h1>
+    <div>
+        
+        <p id="box1" class="box">Hours
+            <br><br><br><br><br><span id="hourspan"></span>
+        </p>
+        <p id="box2" class="box">Minutes
+            <br><br><br><br><br><span id="minutesspan"></span>
+        </p>
+        <p id="box3" class="box">Seconds
+            <br><br><br><br><br><span id="secondsspan"></span>
+        </p>
+        <p id="box4" class="box">AM/PM
+            <br><br><br><br><br><span id="AMspan"></span>
+        </p>
+        <p id="box5" class="box">Date&Day
+           <br><br><br><br><span id="datespan"></span><span id="dayspan"></span></p>
+
+        <p id="box6" class="box">Month
+             <br><br><br><br><br><span id="monthspan"></span></p>
+        <p id="box7" class="box">year
+            <br><br><br><br><br><span id="yearspan"></span>
+        </p>
+    </div>
+    
+
+    <script src="../javascript/time hours javascript.js"></script>
+</body>
+</html>
